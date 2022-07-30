@@ -1,3 +1,10 @@
+import Navbar from "../components/navbar";
+
 export default function Home() {
-  return <div>This is the landing page.</div>;
+  return (
+    <>
+      <Navbar />
+      <div>This is the landing page.</div>
+    </>
+  );
 }
