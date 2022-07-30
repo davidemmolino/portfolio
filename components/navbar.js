@@ -9,7 +9,7 @@ const Navbar = () => {
         const urlToUpperCase = url.charAt(0).toUpperCase() + url.slice(1);
         return (
           <li key={url}>
-            <a href={`${url}`}>{urlToUpperCase}</a>
+            <a href={url}>{urlToUpperCase}</a>
           </li>
         );
       })}
